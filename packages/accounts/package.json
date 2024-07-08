@@ -20,7 +20,7 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "postinstall": "npm run build"
+    "postinstall": "npm install --ignore-scripts && npm run build"
   },
   "dependencies": {
     "axios": "^1.6.1"
